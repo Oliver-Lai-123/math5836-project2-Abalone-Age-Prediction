@@ -46,5 +46,5 @@ Feature Selection: Models are also tested using only two selected features that 
 A neural network model is trained using Stochastic Gradient Descent (SGD). Hyperparameters such as the number of layers, number of neurons per layer, and learning rate are tuned to optimize performance. The neural network model is then compared to the best-performing linear model.
 
 ## 5. Experimental Results
-The models are evaluated over 30 experiments to get the mean and standard deviation for RMSE and R-squared scores on both the training and test datasets.
+The models are evaluated over a few experiments to get the mean and standard deviation for RMSE and R-squared scores on both the training and test datasets.
 
