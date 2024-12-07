@@ -27,23 +27,24 @@ Data Splitting: Split the data into a training set (60%) and a test set (40%) us
 Visualizations: Create various visualizations like histograms and scatter plots to explore relationships between features.
 
 # Models Developed
-1. Linear Regression (Ring Age Prediction)
+## 1. Linear Regression (Ring Age Prediction)
 A linear regression model is trained on the dataset to predict the ring-age (continuous variable) using all available features. Performance metrics include:
 
 RMSE (Root Mean Squared Error)
 R-squared score
-2. Logistic Regression (Age Classification)
+## 2. Logistic Regression (Age Classification)
 A logistic regression model classifies abalones into two categories based on their ring-age: below 7 years or above 7 years. Performance metrics for the classification model include:
-
 Accuracy
 AUC (Area Under the Curve)
 ROC Curve
-3. Model Comparisons
+
+## 3. Model Comparisons
 Comparison with and without feature normalization: We compare linear and logistic regression models with normalized and non-normalized features.
 Feature Selection: Models are also tested using only two selected features that are most strongly correlated with ring-age.
-4. Neural Network (SGD Optimized)
+
+## 4. Neural Network (SGD Optimized)
 A neural network model is trained using Stochastic Gradient Descent (SGD). Hyperparameters such as the number of layers, number of neurons per layer, and learning rate are tuned to optimize performance. The neural network model is then compared to the best-performing linear model.
 
-5. Experimental Results
+## 5. Experimental Results
 The models are evaluated over 30 experiments to get the mean and standard deviation for RMSE and R-squared scores on both the training and test datasets.
 
